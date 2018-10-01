@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#f5f5f5"
+                android:orientation="vertical">
+
+    <include layout="@layout/layout_header"/>
+
+    <com.handmark.pulltorefresh.library.PullToRefreshScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="49dp"
+        android:layout_marginTop="@dimen/navigation_height"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="59dp"
+                android:background="#CCE8FF"
+                android:orientation="horizontal"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/order_number"
+                    android:textColor="#2196f3"
+                    android:textSize="15sp"/>
+
+                <TextView
+                    android:id="@+id/tv_order_id"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:textColor="#333333"
+                    android:textSize="15sp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:orientation="vertical">
+
+                <com.mhysa.waimai.ui.customerviews.order.OrderScheduleLayout
+                    android:id="@+id/layout_schedule"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center_vertical"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:background="#E6E6E6"/>
+
+                <LinearLayout
+                    android:id="@+id/layout_store"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:orientation="vertical"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:background="#E6E6E6"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="20dp"
+                    android:orientation="vertical"
+                    >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:gravity="center_vertical"
+                            android:text="@string/total"
+                            android:textColor="#333333"
+                            android:textSize="15sp"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginLeft="2dp"
+                            android:layout_marginRight="2dp"
+                            android:gravity="center_vertical"
+                            android:text=":"
+                            android:textColor="#1a1a1a"
+                            android:textSize="15sp"
+                            />
+
+                        <TextView
+                            android:id="@+id/tv_total_price"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:gravity="center_vertical"
+                            android:textColor="#2196f3"
+                            android:textSize="15sp"
+                            />
+
+                        <TextView
+                            android:id="@+id/tv_price_desc"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:gravity="center_vertical"
+                            android:textColor="#494949"
+                            android:textSize="12sp"
+                            />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:gravity="center_vertical"
+                            android:text="@string/time"
+                            android:textColor="#808080"
+                            android:textSize="15sp"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginLeft="2dp"
+                            android:layout_marginRight="2dp"
+                            android:gravity="center_vertical"
+                            android:text=":"
+                            android:textColor="#808080"
+                            android:textSize="15sp"
+                            />
+
+                        <TextView
+                            android:id="@+id/tv_order_time"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginLeft="2dp"
+                            android:layout_marginRight="2dp"
+                            android:gravity="center_vertical"
+                            android:textColor="#808080"
+                            android:textSize="15sp"
+                            />
+                    </LinearLayout>
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/white"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:src="@mipmap/ic_distribution_time" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="25dp"
+                        android:lines="1"
+                        android:text="@string/distribution_time"
+                        android:textColor="#333333"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:id="@+id/tv_distribution_time"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:lines="1"
+                        android:textColor="#999999"
+                        android:textSize="13sp" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="0.5dp"
+                        android:layout_alignParentBottom="true"
+                        android:background="#E6E6E6" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/layout_map_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp">
+
+                    <ImageView
+                        android:layout_width="15dp"
+                        android:layout_height="17dp"
+                        android:layout_centerVertical="true"
+                        android:src="@mipmap/ic_map_title"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="25dp"
+                        android:text="@string/distribution_position"
+                        android:textColor="#333333"
+                        android:textSize="15sp"/>
+
+                    <ImageView
+                        android:id="@+id/iv_arrow"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:src="@mipmap/ic_map_up_arrow"/>
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <com.mhysa.waimai.ui.customerviews.order.OrderDetailMapLayout
+                        android:id="@+id/layout_map"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:focusable="false"
+                        android:focusableInTouchMode="false"
+                        android:orientation="vertical">
+
+                        <fragment
+                            android:id="@+id/map"
+                            class="com.google.android.gms.maps.SupportMapFragment"
+                            android:layout_width="match_parent"
+                            android:layout_height="200dp"/>
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="0.5dp"
+                            android:layout_marginTop="10dp"
+                            android:background="#E6E6E6"
+                            />
+                    </com.mhysa.waimai.ui.customerviews.order.OrderDetailMapLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/layout_map_layer"
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:background="@color/alpha_white_25"/>
+                </RelativeLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </com.handmark.pulltorefresh.library.PullToRefreshScrollView>
+
+    <RelativeLayout
+        android:id="@+id/layout_refresh_location"
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        android:layout_alignParentBottom="true"
+        android:background="#2196f3"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/refresh_location"
+            android:textColor="@color/white"
+            android:textSize="15sp"/>
+
+    </RelativeLayout>
+</RelativeLayout>

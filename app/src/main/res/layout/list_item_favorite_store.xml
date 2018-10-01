@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/layout_top"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="@color/transparent"
+        android:orientation="horizontal" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp">
+
+        <com.mhysa.waimai.ui.customerviews.home.StoreItemLayout
+            android:id="@+id/layout_store_left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <com.mhysa.waimai.ui.customerviews.home.StoreItemLayout
+            android:id="@+id/layout_store_middle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp" />
+
+        <com.mhysa.waimai.ui.customerviews.home.StoreItemLayout
+            android:id="@+id/layout_store_right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/layout_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:orientation="vertical" />
+</LinearLayout>

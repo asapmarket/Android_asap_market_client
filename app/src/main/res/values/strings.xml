@@ -1,0 +1,289 @@
+<resources>
+    <string name="app_name">Baozou delivery</string>
+    <string name="commit">Commit</string>
+    <string name="confirm">Confirm</string>
+    <string name="cancel">Cancel</string>
+    <string name="tip">Tip</string>
+    <string name="confirm_delete">Confirm delete?</string>
+    <string name="edit">Edit</string>
+    <string name="save">Save</string>
+    <string name="delete">Delete</string>
+    <string name="delete_success">Delete success</string>
+    <string name="add">Add</string>
+
+    <!-- 登录、注册、密码相关 -->
+    <string name="register">Register</string>
+    <string name="login">Login</string>
+    <string name="phone_hint">Please input phone</string>
+    <string name="verify_code_hint">Please input verify code</string>
+    <string name="email_hint">Please input email code</string>
+
+    <string name="password_hint">Please input password</string>
+    <string name="get_verify_code">Get verify code</string>
+    <string name="protocol_first">I agreen</string>
+    <string name="protocol_second">user service protocol</string>
+    <string name="has_account">Has account? back to login</string>
+    <string name="register_now">Register now</string>
+    <string name="forget_password">Forget password</string>
+    <string name="new_password_hint">Input new password</string>
+    <string name="confirm_new_password_hint">Confirm new password</string>
+    <string name="password_not_same">The new password entered for the two time is inconsistent</string>
+    <string name="change_password_success">Change password success</string>
+    <string name="find_password">Find password</string>
+    <string name="change_password">Modify password</string>
+    <string name="old_password_hint">Please input old password</string>
+    <string name="account_setting">Account setting</string>
+    <string name="avatar">Avatar</string>
+    <string name="nickname">Nickname</string>
+    <string name="nickname_is_null">Nickname is empty</string>
+    <string name="change_pwd">Modify password</string>
+    <string name="change_nickname_success">Modify nickname success</string>
+    <string name="logout">Logout</string>
+    <string name="confirm_logout">Confirm logout?</string>
+
+    <string name="english">English</string>
+    <string name="chinese">简体中文</string>
+    <string name="language_setting">Language preferences</string>
+
+    <!-- 主页相关 -->
+    <string name="home">Home</string>
+    <string name="favorite">Favorite</string>
+    <string name="order">Order</string>
+    <string name="personal">Personal</string>
+    <string name="exit_after_press_again">Exit after press again</string>
+    <string name="index">Home</string>
+    <string name="onwork">On work</string>
+    <string name="offwork">Off work</string>
+
+    <string name="not_login_tip">Press to login</string>
+    <string name="click_login">Login</string>
+
+    <!-- 订单相关 -->
+    <string name="order_manager">Order manager</string>
+    <string name="choose">Choose</string>
+    <string name="search_order_hint">Please input order number or phone number</string>
+    <string name="out_order">Outter order</string>
+    <string name="urgent_order">Urgent order</string>
+    <string name="distance">Distance</string>
+    <string name="order_number">Order number</string>
+    <string name="grab_order">Take</string>
+    <string name="order_time">Take time</string>
+    <string name="order_in_delivery">In delivery</string>
+    <string name="order_finished">Finished</string>
+    <string name="order_urgent">Urgent</string>
+    <string name="history_order">History order</string>
+
+    <string name="order_status_buy_success">Success</string>
+    <string name="order_status_taking">Taken</string>
+    <string name="order_status_on_road">On road</string>
+    <string name="order_status_finished">Finished</string>
+    <string name="order_status_taken">%1$s has taken</string>
+    <string name="order_status_untaken">Untaken</string>
+    <string name="order_status_feedback">Feedback</string>
+
+    <string name="order_status_wait_for_taken">Wait for taken</string>
+    <string name="order_status_wait_for_feedback">Wait for feedback</string>
+    <string name="order_status_wait_for_pay">Wait for pay</string>
+    <string name="order_status_paid">Pay Success</string>
+    <string name="order_status_pay_in_cash">Pay in cash</string>
+
+    <string name="confirm_delivery">Confirm</string>
+    <string name="view_detail">Detail</string>
+    <string name="pickup_success">Pickup success</string>
+    <string name="pickup_no">Not pickup</string>
+    <string name="food_price">$%1$s</string>
+    <string name="food_quality">%1$s</string>
+
+    <!-- 订单详情 -->
+    <string name="order_detail">Order detail</string>
+    <string name="taken">Taken</string>
+    <string name="take">Take</string>
+    <string name="email_code">Email code</string>
+    <string name="order_phone_number">Phone number</string>
+    <string name="goods_count">%1$s goods</string>
+    <string name="distribution_position">Location</string>
+    <string name="refresh_location">Refresh Location</string>
+
+    <!-- 搜索相关 -->
+    <string name="search">Search</string>
+    <string name="reset">Reset</string>
+    <string name="order_status">Order status</string>
+    <string name="start_time">Start</string>
+    <string name="end_time">End</string>
+    <string name="pay_type">Pay type</string>
+    <string name="order_number_hint">Please input order number</string>
+    <string name="confirm_search">Confirm</string>
+    <string name="appointment_time_valid">Start time should not be later than end time</string>
+
+    <!-- 会员中心 -->
+    <string name="my_wallet">My wallet</string>
+    <string name="personal_address">Address</string>
+    <string name="message">Message</string>
+    <string name="my_inviting">My inviting</string>
+    <string name="my_card">My Credit Card</string>
+    <string name="account_balance">Balance</string>
+    <string name="recharge">Recharge</string>
+    <string name="withdraw">Withdraw</string>
+    <string name="recharge_now">Recharge now</string>
+    <string name="recharge_balance">account</string>
+    <string name="recharge_balance_hint">Please input account</string>
+
+    <string name="full_name">Full name</string>
+    <string name="full_name_hint">Your full name</string>
+    <string name="bank_number">Card number</string>
+    <string name="bank_number_hint">Please input card number</string>
+    <string name="bank_name">Bank</string>
+    <string name="bank_name_hint">Please select bank</string>
+    <string name="balance">Balance</string>
+    <string name="balance_hint">Balance</string>
+
+    <string name="add_address">Add address</string>
+    <string name="contact">Contact</string>
+    <string name="male">male</string>
+    <string name="female">female</string>
+
+    <string name="address_hint">Please input your address</string>
+    <string name="address_phone_hint">Please input your phone number</string>
+    <string name="delete_address">Delete</string>
+    <string name="edit_address">Edit</string>
+    <string name="email">Email code</string>
+    <string name="address_email_hint">Please input your email code</string>
+    <string name="contact_is_null">Please input your name</string>
+    <string name="phone_is_null">Please input phone number</string>
+    <string name="email_is_null">Please input email code</string>
+    <string name="address_is_null">Please input address</string>
+    <string name="mail_is_not_in_range">Your email code is not in range</string>
+    <string name="add_address_success">Add address success</string>
+    <string name="edit_address_success">Edit address success</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="official_account">Official Account</string>
+    <string name="contact_email">Email:</string>
+
+    <!-- 首页 -->
+    <string name="hot">Hot</string>
+    <string name="store_list">Stores</string>
+    <string name="open">OPEN</string>
+    <string name="close">CLOSE</string>
+    <string name="work_off">CLOSED</string>
+
+    <!-- 商家 -->
+    <string name="store_detail">Store detail</string>
+    <string name="store_work_time">Opening time:</string>
+    <string name="store_address">Address:</string>
+    <string name="store_desc">Desc:</string>
+    <string name="store_favorite">Collect</string>
+    <string name="favorite_success">Collect success</string>
+    <string name="delete_favorite_success">Canceled</string>
+    <string name="food_list">Foods</string>
+
+    <string name="choose_spec">Choose spectial</string>
+    <string name="delete_in_cart">Delete in cart</string>
+
+    <!-- 购物车 -->
+    <string name="cart_name">Cart</string>
+    <string name="clear_cart">Clear cart</string>
+    <string name="clear_cart_message">Confirm delete?</string>
+    <string name="delete_food_message">Confirm delete?</string>
+    <string name="total">Total</string>
+    <string name="account">Account</string>
+    <string name="no_food_selected">No food selected</string>
+
+    <!-- 提交订单 -->
+    <string name="create_order">Commit</string>
+    <string name="add_address_hint">Please set address</string>
+    <string name="choose_payment_hint">Please choose pay type</string>
+    <string name="remark_hint">Remark</string>
+    <string name="choose_address_hint">Please set address</string>
+    <string name="paying">Paying......</string>
+    <string name="paymethod_paypal">paypal</string>
+    <string name="paymethod_visa">visa</string>
+    <string name="paymethod_balance">Balance（$%1$s）</string>
+    <string name="paymethod_balance1">balance</string>
+    <string name="paymethod_credit_card">Pay with card</string>
+    <string name="paymethod_rewardpoint">Pay with rewardpoint</string>
+    <string name="pay">Pay</string>
+    <string name="pay_success">Order success</string>
+    <string name="pay_fail">Fail</string>
+    <string name="pay_cancel">Cancelled</string>
+
+    <!-- 商品详情 -->
+    <string name="food_detail">Detail</string>
+
+    <!-- 信用卡支付 -->
+    <string name="add_credit_card">Add Credit Card</string>
+    <string name="card_number">Card Number</string>
+    <string name="expiration_date">Expiration Date</string>
+    <string name="year">YEAR</string>
+    <string name="month">MONTH</string>
+    <string name="CVV">CVV</string>
+    <string name="cvv_hint">Card Verifycation Value</string>
+    <string name="address">Address</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="name">Name</string>
+    <string name="configuration_is_uncomplete">Configurations Not Complete</string>
+
+    <string name="support_credit_card">We accept debit/credit from:</string>
+    <string name="pay_in_cash">Pay In Cash</string>
+
+    <string name="some_tip">How We Charge</string>
+    <string name="time">Time</string>
+    <string name="card_number_prefix">Card No:%1$s</string>
+    <string name="delete_card">Delete</string>
+
+    <string name="continue_pay">Continue</string>
+    <string name="back">Back</string>
+
+    <!-- 钱包 -->
+    <string name="reward_point">Reward Point</string>
+    <string name="wallet">Wallet</string>
+    <string name="reward_point_account">my reward point</string>
+    <string name="what_is_reward_point">What Is Rewardpoint?</string>
+    <string name="current_account">total exchangeable amount</string>
+    <string name="reward_point_des1">Exchange Ratio %1$s</string>
+    <string name="reward_point_des2">totaly exchanged amount %1$s</string>
+    <string name="exchange_ratio">The exchange of %1$s can only be exchanged for the exchange of rewardpoint</string>
+    <string name="exchange_insufficient">Insufficient convertible balance</string>
+    <string name="exchange">Exchange</string>
+    <string name="exchange_success">Exchange Success</string>
+    <string name="convertible_rewardpoint">Total %1$s rewardpoint</string>
+
+    <string name="distribution_time">Distribution Time</string>
+    <string name="coupon">Coupon</string>
+    <string name="without_coupon">No coupons</string>
+    <string name="coupon_cut">$%1$s&#160;cut</string>
+    <string name="input_coupon_code">Input Coupon Code</string>
+
+    <string name="delivery_fee">Delivery fee:&#160;$%1$s</string>
+    <string name="tax">Tax:&#160;$%1$s</string>
+    <string name="total_pre">Total:&#160;</string>
+    <string name="coupon_cut_pre">Coupon cut:&#160;$%1$s</string>
+
+    <string name="has_closed_store">%1$s not in business hour, please remove them and try again</string>
+
+    <!-- 跑腿订单相关 -->
+    <string name="errand_title">Personalized Order</string>
+    <string name="errand_tip">Every personalized order costs %1$s rewardpoint</string>
+    <string name="errand_tip_get">How?</string>
+    <string name="take_order">Order</string>
+    <string name="rewardpoint_insufficient">Rewardpoint Insufficient</string>
+    <string name="errand_upload_images_tip">Upload photos to be a supplementary description</string>
+    <string name="select_photo">Album</string>
+    <string name="take_photo">Take Photo</string>
+    <string name="select_error">Failed, try again</string>
+    <string name="errand_description_hint">Please enter the goods you want to buy and the description</string>
+    <string name="errand_order">Personalized Order</string>
+    <string name="takeout_order">Takeout Order</string>
+    <string name="goods_description">Description Of Goods</string>
+    <string name="not_feedback_tip">Hint: We dont process unpaid order,you can pay for your order after we calculate the price</string>
+    <string name="cancel_order">Cancel</string>
+    <string name="pay_now">Pay</string>
+    <string name="confirm_cancel">Confirm cancel?</string>
+    <string name="cancel_success">Cancelled</string>
+    <string name="price_limit_tip">The minimum charge for personalized order will be $20</string>
+
+    <string name="card_number_invalid">The card number is invalid</string>
+    <string name="card_expiry_date_invalid">The expiration date is invalid</string>
+    <string name="card_cvv_invalid">The CVV code is invalid</string>
+    <string name="card_detail_invalid">The card details are invalid</string>
+</resources>

@@ -1,0 +1,290 @@
+<resources>
+    <string name="app_name">暴走外卖</string>
+    <string name="commit">提交</string>
+    <string name="confirm">确认</string>
+    <string name="cancel">取消</string>
+    <string name="tip">提示</string>
+    <string name="confirm_delete">确认删除？</string>
+    <string name="edit">编辑</string>
+    <string name="save">保存</string>
+    <string name="delete">删除</string>
+    <string name="delete_success">删除成功</string>
+    <string name="add">添加</string>
+
+    <!-- 登录、注册、密码相关 -->
+    <string name="register">注册</string>
+    <string name="login">登录</string>
+    <string name="phone_hint">请输入手机号</string>
+    <string name="verify_code_hint">输入验证码</string>
+    <string name="email_hint">请输入邮编地址</string>
+
+    <string name="password_hint">请输入密码</string>
+    <string name="get_verify_code">获取验证码</string>
+    <string name="protocol_first">我已阅读并同意</string>
+    <string name="protocol_second">《用户服务协议》</string>
+    <string name="has_account">已有账号？返回登录</string>
+    <string name="register_now">立即注册</string>
+    <string name="forget_password">忘记密码</string>
+    <string name="new_password_hint">输入新密码</string>
+    <string name="confirm_new_password_hint">确认新密码</string>
+    <string name="password_not_same">两次输入的新密码不一致</string>
+    <string name="change_password_success">密码修改成功</string>
+    <string name="find_password">找回密码</string>
+    <string name="change_password">修改密码</string>
+    <string name="old_password_hint">输入原始密码</string>
+    <string name="account_setting">账户设置</string>
+    <string name="avatar">头像</string>
+    <string name="nickname">昵称</string>
+    <string name="nickname_is_null">昵称为空</string>
+    <string name="change_pwd">密码修改</string>
+    <string name="change_nickname_success">昵称修改成功</string>
+    <string name="logout">退出登录</string>
+    <string name="confirm_logout">确认退出登录？</string>
+
+    <string name="english">英文</string>
+    <string name="chinese">中文</string>
+    <string name="language_setting">语言</string>
+
+    <!-- 主页相关 -->
+    <string name="home">首页</string>
+    <string name="favorite">收藏</string>
+    <string name="order">订单</string>
+    <string name="personal">会员中心</string>
+    <string name="exit_after_press_again">再按一次退出程序</string>
+    <string name="index">首页</string>
+    <string name="onwork">上班中</string>
+    <string name="offwork">已下班</string>
+
+    <string name="not_login_tip">点击登录，享受更好服务</string>
+    <string name="click_login">点击登录</string>
+
+    <!-- 订单相关 -->
+    <string name="order_manager">订单管理</string>
+    <string name="choose">筛选</string>
+    <string name="search_order_hint">请输入订单号或手机号查询</string>
+    <string name="out_order">外卖订单</string>
+    <string name="urgent_order">催单记录</string>
+    <string name="distance">距我</string>
+    <string name="order_number">订单编号</string>
+    <string name="grab_order">抢单</string>
+    <string name="order_time">接单时间</string>
+    <string name="order_in_delivery">配送中</string>
+    <string name="order_finished">已完成</string>
+    <string name="order_urgent">催单</string>
+    <string name="history_order">历史订单</string>
+
+    <string name="order_status_buy_success">下单成功</string>
+    <string name="order_status_taking">取件完成</string>
+    <string name="order_status_on_road">在路上</string>
+    <string name="order_status_finished">订单完成</string>
+    <string name="order_status_taken">快递员%1$s接单</string>
+    <string name="order_status_untaken">暂未接单</string>
+    <string name="order_status_feedback">反馈</string>
+
+    <string name="order_status_wait_for_taken">等待接单</string>
+    <string name="order_status_wait_for_feedback">等待反馈价格</string>
+    <string name="order_status_wait_for_pay">等待付款</string>
+    <string name="order_status_paid">付款成功</string>
+    <string name="order_status_pay_in_cash">现金支付</string>
+
+    <string name="confirm_delivery">确认送达</string>
+    <string name="view_detail">查看详情</string>
+    <string name="pickup_success">取件成功</string>
+    <string name="pickup_no">未取件</string>
+    <string name="food_price">$%1$s</string>
+    <string name="food_quality">%1$s</string>
+
+    <!-- 订单详情 -->
+    <string name="order_detail">订单详情</string>
+    <string name="taken">已取</string>
+    <string name="take">取件</string>
+    <string name="email_code">邮编地址</string>
+    <string name="order_phone_number">手机号</string>
+    <string name="goods_count">%1$s件商品</string>
+    <string name="distribution_position">配送员位置</string>
+    <string name="refresh_location">刷新位置</string>
+
+    <!-- 搜索相关 -->
+    <string name="search">搜索</string>
+    <string name="reset">重置</string>
+    <string name="order_status">订单状态</string>
+    <string name="start_time">起始时间</string>
+    <string name="end_time">终止时间</string>
+    <string name="pay_type">支付方式</string>
+    <string name="order_number_hint">请输入订单号</string>
+    <string name="confirm_search">确认搜索</string>
+    <string name="appointment_time_valid">起始时间不能晚于终止时间</string>
+
+    <!-- 会员中心 -->
+    <string name="my_wallet">我的钱包</string>
+    <string name="personal_address">收货地址</string>
+    <string name="message">会员消息</string>
+    <string name="my_inviting">我的邀请</string>
+    <string name="my_card">我的信用卡</string>
+    <string name="account_balance">账户余额</string>
+    <string name="recharge">充值</string>
+    <string name="withdraw">提现</string>
+    <string name="recharge_now">立即充值</string>
+    <string name="recharge_balance">充值金额</string>
+    <string name="recharge_balance_hint">请输入充值金额</string>
+
+    <string name="full_name">姓名</string>
+    <string name="full_name_hint">您的姓名</string>
+    <string name="bank_number">卡号</string>
+    <string name="bank_number_hint">您的卡号</string>
+    <string name="bank_name">银行</string>
+    <string name="bank_name_hint">请选择银行</string>
+    <string name="balance">金额</string>
+    <string name="balance_hint">提现金额</string>
+
+    <string name="add_address">新增地址</string>
+    <string name="contact">联系人</string>
+    <string name="male">先生</string>
+    <string name="female">女士</string>
+
+    <string name="address_hint">您的详细收货地址</string>
+    <string name="address_phone_hint">配送员联系您的电话</string>
+    <string name="delete_address">删除该地址</string>
+    <string name="edit_address">编辑地址</string>
+    <string name="email">zip code</string>
+    <string name="address_email_hint">您的zip code</string>
+    <string name="contact_is_null">请输入姓名</string>
+    <string name="phone_is_null">请输入手机号</string>
+    <string name="email_is_null">请输入zip code</string>
+    <string name="address_is_null">请输入详细收货地址</string>
+    <string name="mail_is_not_in_range">您的zip code不在配送范围内</string>
+    <string name="add_address_success">新建地址成功</string>
+    <string name="edit_address_success">编辑成功</string>
+    <string name="contact_us">联系我们</string>
+    <string name="official_account">微信公众号</string>
+    <string name="contact_email">联系邮箱：</string>
+
+    <!-- 首页 -->
+    <string name="hot">热卖</string>
+    <string name="store_list">餐厅列表</string>
+    <string name="open">展开分类</string>
+    <string name="close">收起分类</string>
+    <string name="work_off">打烊</string>
+
+    <!-- 商家 -->
+    <string name="store_detail">商家详情</string>
+    <string name="store_work_time">营业时间：</string>
+    <string name="store_address">地址：</string>
+    <string name="store_desc">简介：</string>
+    <string name="store_favorite">收藏</string>
+    <string name="favorite_success">收藏成功</string>
+    <string name="delete_favorite_success">已取消</string>
+    <string name="food_list">商品列表</string>
+
+    <string name="choose_spec">选择规格</string>
+    <string name="delete_in_cart">多规格商品只能去购物车删除哦</string>
+
+    <!-- 购物车 -->
+    <string name="cart_name">购物车</string>
+    <string name="clear_cart">清空购物车</string>
+    <string name="clear_cart_message">确认清空购物车？</string>
+    <string name="delete_food_message">确认删除已选商品？</string>
+    <string name="total">合计</string>
+    <string name="account">结算</string>
+    <string name="no_food_selected">未选中任何商品</string>
+
+    <!-- 提交订单 -->
+    <string name="create_order">提交订单</string>
+    <string name="add_address_hint">添加地址</string>
+    <string name="choose_payment_hint">选择支付方式</string>
+    <string name="remark_hint">给商家留言</string>
+    <string name="choose_address_hint">请选择收货地址</string>
+    <string name="paying">支付中</string>
+    <string name="paymethod_paypal">paypal</string>
+    <string name="paymethod_visa">visa</string>
+    <string name="paymethod_balance">余额（可用余额$%1$s）</string>
+    <string name="paymethod_balance1">余额</string>
+    <string name="paymethod_credit_card">刷卡支付</string>
+    <string name="paymethod_rewardpoint">饭点支付</string>
+    <string name="pay">支付</string>
+    <string name="pay_success">下单成功</string>
+    <string name="pay_fail">支付失败</string>
+    <string name="pay_cancel">支付取消</string>
+
+
+    <!-- 商品详情 -->
+    <string name="food_detail">商品详情</string>
+
+    <!-- 信用卡支付 -->
+    <string name="add_credit_card">新建信用卡</string>
+    <string name="card_number">信用卡卡号</string>
+    <string name="expiration_date">有效日期</string>
+    <string name="year">年</string>
+    <string name="month">月</string>
+    <string name="CVV">CVV</string>
+    <string name="cvv_hint">卡片背面三位安全码</string>
+    <string name="address">地址</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="name">姓名</string>
+    <string name="configuration_is_uncomplete">信息不完整</string>
+
+    <string name="support_credit_card">We accept debit/credit from:</string>
+    <string name="pay_in_cash">现金支付</string>
+
+    <string name="some_tip">送餐费用</string>
+    <string name="time">时间</string>
+    <string name="card_number_prefix">卡号：%1$s</string>
+    <string name="delete_card">删 除</string>
+
+    <string name="continue_pay">继续提交</string>
+    <string name="back">返回添加</string>
+
+    <!-- 钱包 -->
+    <string name="reward_point">饭点</string>
+    <string name="wallet">钱包</string>
+    <string name="reward_point_account">饭点余额</string>
+    <string name="what_is_reward_point">什么是饭点？</string>
+    <string name="current_account">可兑换余额</string>
+    <string name="reward_point_des1">当前兑换比例 %1$s</string>
+    <string name="reward_point_des2">总计兑换金额 %1$s</string>
+    <string name="exchange_ratio">需满%1$s可兑换金额才可兑换饭点</string>
+    <string name="exchange_insufficient">可兑换金额不足</string>
+    <string name="exchange">兑换</string>
+    <string name="exchange_success">兑换成功</string>
+    <string name="convertible_rewardpoint">剩余%1$s饭点</string>
+
+    <string name="distribution_time">可配送时间</string>
+    <string name="coupon">优惠券</string>
+    <string name="without_coupon">不使用优惠券</string>
+    <string name="coupon_cut">优惠金额&#160;$%1$s</string>
+    <string name="input_coupon_code">请输入优惠码</string>
+
+    <string name="delivery_fee">配送费：&#160;$%1$s</string>
+    <string name="tax">税费：&#160;$%1$s</string>
+    <string name="total_pre">合计：&#160;</string>
+    <string name="coupon_cut_pre">优惠券折扣：&#160;$%1$s</string>'
+
+    <string name="has_closed_store">%1$s 已经打烊，请移除相关商品后重新下单</string>
+
+    <!-- 跑腿订单相关 -->
+    <string name="errand_title">私人定制</string>
+    <string name="errand_tip">每次私人定制将会消耗%1$s饭点</string>
+    <string name="errand_tip_get">如何获得饭点？</string>
+    <string name="take_order">下单</string>
+    <string name="rewardpoint_insufficient">饭点余额不足</string>
+    <string name="errand_upload_images_tip">可上传照片以作补充描述</string>
+    <string name="select_photo">相册</string>
+    <string name="take_photo">拍照</string>
+    <string name="select_error">失败，请重试</string>
+    <string name="errand_description_hint">请输入想购买的商品以及描述</string>
+    <string name="errand_order">私人定制</string>
+    <string name="takeout_order">外卖订单</string>
+    <string name="goods_description">商品描述</string>
+    <string name="not_feedback_tip">提示：尚未支付的订单不算作有效订单，请等待快递员反馈价格后尽快支付</string>
+    <string name="cancel_order">取消订单</string>
+    <string name="pay_now">立即支付</string>
+    <string name="confirm_cancel">确定要取消订单吗？</string>
+    <string name="cancel_success">订单已经取消</string>
+    <string name="price_limit_tip">私人订制订单最低消费20usd</string>
+
+    <string name="card_number_invalid">卡号有误</string>
+    <string name="card_expiry_date_invalid">有效日期有误</string>
+    <string name="card_cvv_invalid">CVV验证码有误</string>
+    <string name="card_detail_invalid">卡片详情有误</string>
+</resources>

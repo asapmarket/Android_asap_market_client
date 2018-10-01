@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="/Users/xusheng3/xusheng/mhysa/waimai/Waimai/jsbridgelib/src/main/assets"><file name="WebViewJavascriptBridge.js" path="/Users/xusheng3/xusheng/mhysa/waimai/Waimai/jsbridgelib/src/main/assets/WebViewJavascriptBridge.js"/></source><source path="/Users/xusheng3/xusheng/mhysa/waimai/Waimai/jsbridgelib/build/generated/assets/shaders/debug"/></dataSet><dataSet config="debug"><source path="/Users/xusheng3/xusheng/mhysa/waimai/Waimai/jsbridgelib/src/debug/assets"/></dataSet></merger>

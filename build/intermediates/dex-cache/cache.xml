@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/xusheng3/xusheng/mhysa/waimai/Waimai/devilfish/build/intermediates/bundles/default/libs/photoview1.2.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d1c37dec55ccaa36876b1c7f597b2b51bc3db443">
+        <dex dex="/Users/xusheng3/xusheng/mhysa/waimai/Waimai/app/build/intermediates/transforms/dex/debug/folders/1000/8/photoview1.2.2_5d6e32b4ff9d67c1e76be1704afe90dfcf0aec05/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/xusheng3/xusheng/mhysa/waimai/Waimai/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c323c36ecc68965c4cfb460f7721113d2b61ed03">
+        <dex dex="/Users/xusheng3/xusheng/mhysa/waimai/Waimai/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_746596007940a652539a0a8ac87bebdefbc04ece/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/xusheng3/xusheng/mhysa/waimai/Waimai/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="fec3a0505e9aeff0aa6cdcce37f891bfec9971c4">
+        <dex dex="/Users/xusheng3/xusheng/mhysa/waimai/Waimai/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_fbfba5c4fa3d7643b31b83dd1b15059fd1ea65fa/classes.dex" />
+    </item>
+
+</items>

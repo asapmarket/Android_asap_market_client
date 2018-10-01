@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="64dp">
+
+        <ImageView
+            android:id="@+id/iv_check"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:paddingBottom="10dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="10dp"
+            android:src="@mipmap/ic_rect_check_normal" />
+
+        <com.facebook.drawee.view.SimpleDraweeView
+            android:id="@+id/sdv_food_image"
+            android:layout_width="44dp"
+            android:layout_height="44dp"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/iv_check"
+            android:scaleType="centerCrop"
+            fresco:placeholderImage="@mipmap/ic_food_default" />
+
+        <RelativeLayout
+            android:id="@+id/layout_title"
+            android:layout_width="wrap_content"
+            android:layout_height="44dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/sdv_food_image">
+
+            <TextView
+                android:id="@+id/tv_food_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:maxLines="1"
+                android:textColor="#4D4D4D"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/tv_special"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:textColor="#999999"
+                android:textSize="13sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/layout_edit"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp">
+
+            <ImageView
+                android:id="@+id/iv_add"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:src="@mipmap/ic_add_pressed" />
+
+            <TextView
+                android:id="@+id/tv_quality"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@+id/iv_add"
+                android:gravity="center"
+                android:minWidth="40dp"
+                android:textColor="#333333"
+                android:textSize="15sp" />
+
+            <ImageView
+                android:id="@+id/iv_minus"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@+id/tv_quality"
+                android:src="@mipmap/ic_minus_normal" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/tv_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="15dp"
+            android:layout_toLeftOf="@+id/layout_edit"
+            android:maxLines="1"
+            android:textColor="#2196f3"
+            android:textSize="13sp" />
+
+    </RelativeLayout>
+</LinearLayout>

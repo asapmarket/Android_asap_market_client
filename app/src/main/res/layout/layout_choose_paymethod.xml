@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/layout_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_corner_5dp_white"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="20dp"
+            android:gravity="center_horizontal"
+            android:text="@string/choose_payment_hint"
+            android:textColor="#333333"
+            android:textSize="15sp"
+            />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="#E6E6E6"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical">
+
+            <RadioGroup
+                android:id="@+id/rg_buttons"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/rb_paypal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:button="@null"
+                    android:checked="true"
+                    android:drawablePadding="6dp"
+                    android:drawableTop="@drawable/btn_paypal"
+                    android:gravity="center_horizontal"
+                    android:text="@string/paymethod_paypal"
+                    android:textColor="@color/pay_type_text_color"
+                    android:textSize="12sp"/>
+
+                <RadioButton
+                    android:id="@+id/rb_card"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:button="@null"
+                    android:checked="false"
+                    android:drawablePadding="6dp"
+                    android:drawableTop="@drawable/btn_card"
+                    android:gravity="center_horizontal"
+                    android:text="@string/paymethod_credit_card"
+                    android:textColor="@color/pay_type_text_color"
+                    android:textSize="12sp"/>
+
+                <RadioButton
+                    android:id="@+id/rb_cash"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:button="@null"
+                    android:checked="false"
+                    android:drawablePadding="6dp"
+                    android:drawableTop="@drawable/btn_cash"
+                    android:gravity="center_horizontal"
+                    android:text="@string/pay_in_cash"
+                    android:textColor="@color/pay_type_text_color"
+                    android:textSize="12sp"/>
+
+                <RadioButton
+                    android:id="@+id/rb_rewardpoint"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:button="@null"
+                    android:checked="false"
+                    android:drawablePadding="6dp"
+                    android:drawableTop="@drawable/btn_rewardpoint"
+                    android:gravity="center_horizontal"
+                    android:text="@string/paymethod_rewardpoint"
+                    android:textColor="@color/pay_type_text_color"
+                    android:textSize="12sp"/>
+
+            </RadioGroup>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:orientation="horizontal">
+                <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"/>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"/>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"/>
+                <TextView
+                    android:id="@+id/tv_convertible_rewardpoint"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textSize="10dp"
+                    android:gravity="center_horizontal"
+                    android:textColor="#908080"/>
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

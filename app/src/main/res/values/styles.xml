@@ -1,0 +1,79 @@
+<resources>
+
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowAnimationStyle">@style/activityAnimation
+        </item>
+    </style>
+
+    <style name="AppTheme.Fullscreen" parent="AppTheme">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <style name="mainActivityAnimation" parent="@android:style/Animation">
+        <item name="android:activityCloseEnterAnimation">
+            @anim/activity_translate_right_close_in
+        </item>
+        <item name="android:activityCloseExitAnimation">
+            @anim/activity_translate_right_close_out
+        </item>
+    </style>
+
+    <style name="activityAnimation" parent="@style/mainActivityAnimation">
+        <item name="android:activityOpenEnterAnimation">
+            @anim/activity_translate_right_in
+        </item>
+        <item name="android:activityOpenExitAnimation">
+            @anim/activity_translate_right_out
+        </item>
+    </style>
+
+    <!-- 应用弹框头部风格 -->
+    <style name="prompt_title_style">
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">19sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:minHeight">@dimen/button_height</item>
+    </style>
+
+    <!-- 应用弹框按钮风格 -->
+    <style name="prompt_button_style" parent="@style/blue_button_style">
+        <item name="android:minHeight">40dip</item>
+        <item name="android:minWidth">100dip</item>
+    </style>
+
+    <!-- 整个应用蓝色按钮的风格 -->
+    <style name="blue_button_style">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:layout_height">45dip</item>
+    </style>
+
+    <!-- 应用弹框风格 -->
+    <style name="prompt_style" parent="@android:style/Theme.Panel">
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+
+    <style name="style_normal">
+        <item name="android:textSize">10dp</item>
+        <item name="android:textColor">@color/color_808080</item>
+    </style>
+
+    <style name="style_bold">
+        <item name="android:textSize">12dp</item>
+        <item name="android:textColor">@color/color_2196f3</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="menu_animation">
+        <item name="android:windowEnterAnimation">@anim/menu_appear</item>
+        <item name="android:windowExitAnimation">@anim/menu_disappear</item>
+    </style>
+
+</resources>

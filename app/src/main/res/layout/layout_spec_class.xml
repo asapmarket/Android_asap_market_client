@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_spec_class_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:textColor="#4d4d4d"
+        android:textSize="13sp"/>
+
+    <com.joey.devilfish.widget.gridview.CustomerGridView
+        android:id="@+id/cgv_spec"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:cacheColorHint="@color/transparent"
+        android:gravity="center"
+        android:horizontalSpacing="11dp"
+        android:listSelector="@color/transparent"
+        android:numColumns="4"
+        android:scrollbars="none"
+        android:stretchMode="columnWidth"
+        android:verticalSpacing="10dp"/>
+
+</LinearLayout>

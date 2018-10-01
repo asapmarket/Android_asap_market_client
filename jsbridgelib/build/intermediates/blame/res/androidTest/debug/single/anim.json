@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "/Users/xusheng3/xusheng/mhysa/waimai/Waimai/jsbridgelib/build/intermediates/res/merged/androidTest/debug/anim/abc_grow_fade_in_from_bottom.xml",
+        "source": "/Users/xusheng3/.android/build-cache/0897717b5faef5451bc2fbc23e7dcf7bc349b3b4/output/res/anim/abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "/Users/xusheng3/xusheng/mhysa/waimai/Waimai/jsbridgelib/build/intermediates/res/merged/androidTest/debug/anim/abc_popup_enter.xml",
+        "source": "/Users/xusheng3/.android/build-cache/0897717b5faef5451bc2fbc23e7dcf7bc349b3b4/output/res/anim/abc_popup_enter.xml"
+    },
+    {
+        "merged": "/Users/xusheng3/xusheng/mhysa/waimai/Waimai/jsbridgelib/build/intermediates/res/merged/androidTest/debug/anim/abc_fade_in.xml",
+        "source": "/Users/xusheng3/.android/build-cache/0897717b5faef5451bc2fbc23e7dcf7bc349b3b4/output/res/anim/abc_fade_in.xml"
+    },
+    {
+        "merged": "/Users/xusheng3/xusheng/mhysa/waimai/Waimai/jsbridgelib/build/intermediates/res/merged/androidTest/debug/anim/abc_fade_out.xml",
+        "source": "/Users/xusheng3/.android/build-cache/0897717b5faef5451bc2fbc23e7dcf7bc349b3b4/output/res/anim/abc_fade_out.xml"
+    },
+    {
+        "merged": "/Users/xusheng3/xusheng/mhysa/waimai/Waimai/jsbridgelib/build/intermediates/res/merged/androidTest/debug/anim/abc_slide_out_top.xml",
+        "source": "/Users/xusheng3/.android/build-cache/0897717b5faef5451bc2fbc23e7dcf7bc349b3b4/output/res/anim/abc_slide_out_top.xml"
+    },
+    {
+        "merged": "/Users/xusheng3/xusheng/mhysa/waimai/Waimai/jsbridgelib/build/intermediates/res/merged/androidTest/debug/anim/abc_slide_out_bottom.xml",
+        "source": "/Users/xusheng3/.android/build-cache/0897717b5faef5451bc2fbc23e7dcf7bc349b3b4/output/res/anim/abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "/Users/xusheng3/xusheng/mhysa/waimai/Waimai/jsbridgelib/build/intermediates/res/merged/androidTest/debug/anim/abc_slide_in_top.xml",
+        "source": "/Users/xusheng3/.android/build-cache/0897717b5faef5451bc2fbc23e7dcf7bc349b3b4/output/res/anim/abc_slide_in_top.xml"
+    },
+    {
+        "merged": "/Users/xusheng3/xusheng/mhysa/waimai/Waimai/jsbridgelib/build/intermediates/res/merged/androidTest/debug/anim/abc_slide_in_bottom.xml",
+        "source": "/Users/xusheng3/.android/build-cache/0897717b5faef5451bc2fbc23e7dcf7bc349b3b4/output/res/anim/abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "/Users/xusheng3/xusheng/mhysa/waimai/Waimai/jsbridgelib/build/intermediates/res/merged/androidTest/debug/anim/abc_popup_exit.xml",
+        "source": "/Users/xusheng3/.android/build-cache/0897717b5faef5451bc2fbc23e7dcf7bc349b3b4/output/res/anim/abc_popup_exit.xml"
+    },
+    {
+        "merged": "/Users/xusheng3/xusheng/mhysa/waimai/Waimai/jsbridgelib/build/intermediates/res/merged/androidTest/debug/anim/abc_shrink_fade_out_from_bottom.xml",
+        "source": "/Users/xusheng3/.android/build-cache/0897717b5faef5451bc2fbc23e7dcf7bc349b3b4/output/res/anim/abc_shrink_fade_out_from_bottom.xml"
+    }
+]
