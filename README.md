@@ -1,5 +1,5 @@
 ## intro
-A delivery app for cliant   
+A delivery app for client   
 
 ## guide
 ### Prerequisites
